@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PracticeTest.demo1Test" duration-ms="18224" started-at="2021-12-30T12:15:49Z" finished-at="2021-12-30T12:16:08Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="demo1Test.owner()[pri:0, instance:PracticeTest.demo1Test@13969fbe]" name="owner" class="PracticeTest.demo1Test"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="demo1Test.addOwner()[pri:0, instance:PracticeTest.demo1Test@13969fbe]" name="addOwner" class="PracticeTest.demo1Test"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Command line test" duration-ms="18224" started-at="2021-12-30T12:15:49Z" finished-at="2021-12-30T12:16:08Z">
+      <class name="PracticeTest.demo1Test">
+        <test-method status="PASS" signature="addOwner()[pri:0, instance:PracticeTest.demo1Test@13969fbe]" name="addOwner" duration-ms="9465" started-at="2021-12-30T12:15:50Z" finished-at="2021-12-30T12:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOwner -->
+        <test-method status="PASS" signature="owner()[pri:0, instance:PracticeTest.demo1Test@13969fbe]" name="owner" duration-ms="8737" started-at="2021-12-30T12:15:59Z" finished-at="2021-12-30T12:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- owner -->
+      </class> <!-- PracticeTest.demo1Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- PracticeTest.demo1Test -->
+</testng-results>
